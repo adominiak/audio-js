@@ -17,14 +17,24 @@
 
   <body>
 
-    <audio class="ad-audio" preload="none">
-      <!-- <source src="http://www.tonycuffe.com/mp3/tailtoddle_lo.mp3" type="audio/mpeg"> -->
-      Your browser does not support the audio element.
-    </audio>
-    <button id="btn_play">Play</button>
-    <button id="btn_pause">Pause</button>
-    <button id="btn_forward">Forward</button>
 
+    <div>
+      <h3>With audio element</h3>
+        <audio class="ad-audio" preload="none">
+        <!-- <source src="http://www.tonycuffe.com/mp3/tailtoddle_lo.mp3" type="audio/mpeg"> -->
+        Your browser does not support the audio element.
+      </audio>
+      <button id="btn_play">Play</button>
+      <button id="btn_pause">Pause</button>
+      <button id="btn_forward">Forward</button>
+    </div>
+
+    <div>
+      <h3> Dynamicly loaded </h3>
+      <button id="btn_play2">Play</button>
+      <button id="btn_pause2">Pause</button>
+      <button id="btn_forward2">Forward</button>
+    </div>
 
     <script src="js/Sound.js"></script>
     <script src="js/main-sound.js"></script>
